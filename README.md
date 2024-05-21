@@ -2,6 +2,11 @@
 
 https://github.com/omkarg01/Optiguide-2/assets/67428719/f31c0cb3-3517-42fe-b524-fcf9beac70f2
 
+# Technology Stack & Tools
+- Redux
+- React Js
+- Firebase
+- WebRTC
 
 # Getting Started with Create React App
 
