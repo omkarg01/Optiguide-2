@@ -1,0 +1,45 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .footer-buttons button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+  }
+  
+  .footer-buttons button i {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-buttons button span {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .footer-buttons button.active {
+    color: #0066ff;
+    border-bottom: 3px solid #0066ff;
+  }

@@ -1,0 +1,79 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px 40px;
+  flex-direction: column;
+}
+
+.call-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 20px;
+  padding: 40px 20px;
+  flex-direction: column;
+  margin: 20px 0px;
+  max-width: 600px;
+}
+
+.phone-icon {
+  margin-top: 30px;
+  font-size: 30px;
+  background-color: white;
+  padding: 20px;
+  color: #2196f3;
+  border-radius: 50%;
+}
+
+.call-label {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.call-msg {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.talk-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  margin-top: 30px;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.talk-button-labels{
+    margin-right: 10px;
+}
+.talk-button .call-label {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0px;
+  color: saddlebrown;
+}
+.talk-button .phone-icon{
+    margin-top: 0px;
+}
+.talk-button .call-msg{
+    margin-bottom:0px ;
+    text-align: left;
+}
